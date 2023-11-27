@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Centrail One';
+    src: url('../fonts/Contrail-One/ContrailOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Motserrat-Alternate/MontserratAlternates-Italic.ttf');
+}
