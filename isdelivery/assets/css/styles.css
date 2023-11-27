@@ -6,30 +6,6 @@
     padding: 0;
 }
 
-h1 {
-    font-size: 100px;
-}
-
-h2 {
-    font-size: 80px;
-}
-
-h3 {
-    font-size: 60px;
-}
-
-h4 {
-    font-size: 40px;
-}
-
-h5 {
-    font-size: 20px;
-}
-
-h6 {
-    font-size: 16px;
-}
-
 body {
     font-family: 'Montserrat' !important;
 }
@@ -37,4 +13,45 @@ body {
 
 .Centrail-One {
     font-family: 'Centrail One' !important;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn-dark {
+    background-color: var(--black-bg);
+    border: 1px groove var(--white-bg);
+}
+
+.btn-dark:hover {
+    background-color: var(--white-bg);
+    color: var(--black-bg);
+}
+
+.red-bg {
+    background-color: var(--red-bg);
+}
+
+.btn-yellow {
+    background-color: var(--yellow-bg);
+}
+
+.btn-yellow:hover {
+    color: var(--white-bg);
+    border: 1px solid var(--yellow-bg);
+}
+
+.yellow-bg {
+    background-color: var(--yellow-bg);
+
+}
+
+.border-none {
+    border: none !important;
+}
+
+.dropdown-item:hover {
+    background-color: var(--red-bg);
+    color: var(--white-bg);
 }

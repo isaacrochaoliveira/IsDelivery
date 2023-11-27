@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+
 .fs-56pt {
     font-size: 56pt !important;
 }
