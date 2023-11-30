@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* GENERAL SETTINGS */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,18 +8,19 @@
 }
 
 body {
-    font-family: 'Montserrat' !important;
+    font-family: 'Montserrat-Italic' !important;
 }
-
 
 .Centrail-One {
     font-family: 'Centrail One' !important;
 }
 
+
 .btn {
     border-radius: 0px;
 }
 
+/* FIRST INDEX */
 .btn-dark {
     background-color: var(--black-bg);
     border: 1px groove var(--white-bg);
@@ -29,6 +31,8 @@ body {
     color: var(--black-bg);
 }
 
+
+/* HEADER */
 .red-bg {
     background-color: var(--red-bg);
 }
@@ -53,5 +57,34 @@ body {
 
 .dropdown-item:hover {
     background-color: var(--red-bg);
+}
+
+.border-white-1 {
+    border: 1px solid var(--white-bg) !important;
+}
+
+#section__header {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(148, 47, 36, 0.471)), url("../imgs/pngs/guanabara.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 250px 50px;
     color: var(--white-bg);
+}
+
+#section__header .widget__h1 h1 {
+    font-size: 36pt;
+    text-transform: capitalize;
+}
+
+#section__header .widget__h1 {
+    border-top: 1px solid var(--white-bg);
+    border-left: 1px solid var(--white-bg);
+    border-top-left-radius: 5px;
+    width: 350px;
+    padding: 15px 10px;
+}
+
+/* INDEX */
+.small-box {
+    font-family: 'Montserrat-Bold';
 }

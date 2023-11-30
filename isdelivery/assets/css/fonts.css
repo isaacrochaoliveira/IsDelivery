@@ -6,6 +6,11 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Italic';
     src: url('../fonts/Motserrat-Alternate/MontserratAlternates-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Motserrat-Alternate/MontserratAlternates-Bold.ttf');
 }
