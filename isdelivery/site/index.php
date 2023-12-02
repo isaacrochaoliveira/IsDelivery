@@ -30,18 +30,25 @@ require_once('../conf/config.php');
 <body>
     <?= include_once('./template/header.php') ?>
 
-    <section id="about-us-section">
-        <div>
-            <div id="div_about" class="text-center">
-                <i class="fa-solid fa-trophy fs-26pt"></i>
-                <i class="fa-solid fa-burger fs-26pt"></i>
-                <h2 class="fs-46pt">Who Are We?</h2>
-                <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure numquam iste officia, <mark>ullam doloribus</mark> architecto, dignissimos <mark>consequatur consequuntur</mark> iusto deserunt, optio sequi tempore? Dolor sapiente aliquid ut! Tenetur, dolor.</p>
-                <a href="#"><button class="btn-red">Read More...</button></a>
+    <div id="content">
+        <section id="about-us-section">
+            <div>
+                <div id="div_about" class="text-center">
+                    <i class="fa-solid fa-trophy fs-26pt"></i>
+                    <i class="fa-solid fa-burger fs-26pt"></i>
+                    <h2 class="fs-46pt">Who Are We?</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure numquam iste officia, <mark>ullam doloribus</mark> architecto, dignissimos <mark>consequatur consequuntur</mark> iusto deserunt, optio sequi tempore? Dolor sapiente aliquid ut! Tenetur, dolor.</p>
+                    <a href="#"><button class="btn-red">Read More...</button></a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section id="cardapio">
+            <div>
+                <h2>Let you see the Menu</h2>
+            </div>
+        </section>
+    </div>
 
     <?= include_once('./template/footer.php') ?>
     <!-- BOOTSTRAP'S JS -->

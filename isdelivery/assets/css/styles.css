@@ -65,6 +65,10 @@ body {
 
 /* INDEX */
 
+#content {
+    font-family: 'Lobster Bold';
+}
+
 #about-us-section {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../imgs/jpgs/section_about-us.jpg');
     background-repeat: no-repeat;
@@ -72,7 +76,6 @@ body {
     background-attachment: fixed;
     padding: 250px 150px;
     color: var(--white-bg);
-    font-family: 'Lobster Bold';
 }
 
 .small-box {
