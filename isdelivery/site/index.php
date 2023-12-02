@@ -11,6 +11,9 @@ require_once('../conf/config.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to <?= SYS_NAME ?></title>
 
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- BOOTSTRAP'S CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -27,18 +30,18 @@ require_once('../conf/config.php');
 <body>
     <?= include_once('./template/header.php') ?>
 
-    <div class="container">
-        <section>
-            <div class="d-flex flex-wrap justify-content-around">
-                <div>
-                    <h2 class="fs-26pt">New Orders Every Day</h2>
-                </div>
-                <div>
-                    <h2 class="fs-26pt">We're here to make yourself happy</h2>
-                </div>
+    <section id="about-us-section">
+        <div>
+            <div id="div_about" class="text-center">
+                <i class="fa-solid fa-trophy fs-26pt"></i>
+                <i class="fa-solid fa-burger fs-26pt"></i>
+                <h2 class="fs-46pt">Who Are We?</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure numquam iste officia, <mark>ullam doloribus</mark> architecto, dignissimos <mark>consequatur consequuntur</mark> iusto deserunt, optio sequi tempore? Dolor sapiente aliquid ut! Tenetur, dolor.</p>
+                <a href="#"><button class="btn-red">Read More...</button></a>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
 
     <?= include_once('./template/footer.php') ?>
     <!-- BOOTSTRAP'S JS -->

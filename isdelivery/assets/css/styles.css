@@ -63,28 +63,40 @@ body {
     border: 1px solid var(--white-bg) !important;
 }
 
-#section__header {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(148, 47, 36, 0.471)), url("../imgs/pngs/guanabara.png") no-repeat;
+/* INDEX */
+
+#about-us-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../imgs/jpgs/section_about-us.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 250px 50px;
+    padding: 250px 150px;
     color: var(--white-bg);
+    font-family: 'Lobster Bold';
 }
 
-#section__header .widget__h1 h1 {
-    font-size: 36pt;
-    text-transform: capitalize;
-}
-
-#section__header .widget__h1 {
-    border-top: 1px solid var(--white-bg);
-    border-left: 1px solid var(--white-bg);
-    border-top-left-radius: 5px;
-    width: 350px;
-    padding: 15px 10px;
-}
-
-/* INDEX */
 .small-box {
     font-family: 'Montserrat-Bold';
+}
+
+#about-us-section div > #div_about {
+    padding: 20px 100px;
+    border: 1px solid white;
+}
+
+#about-us-section div > #div_about p {
+    font-family: 'Montserrat-Italic';
+    letter-spacing: 1px;
+}
+
+#about-us-section div > #div_about p > mark {
+    background-color: var(--yellow-bg);
+}
+
+#about-us-section div > #div_about a > .btn-red {
+    background-color: var(--red-bg);
+    color: var(--white-bg);
+    border: none;
+    margin-top: 20px;
+    padding: 13px 40px;
 }

@@ -94,11 +94,4 @@ require_once('../conf/config.php');
             </div>
         </div>
     </nav>
-    <section>
-        <div id="section__header">
-            <div class="widget__h1">
-                <h1>IsDelivery</h1>
-            </div>
-        </div>
-    </section>
 </header>
