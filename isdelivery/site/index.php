@@ -43,9 +43,32 @@ require_once('../conf/config.php');
                 </div>
             </div>
         </section>
-        <section id="cardapio">
+        <section id="menu">
             <div>
-                <h2>Let you see the Menu</h2>
+                <h2 class="fs-36pt color-red">Let you see the Menu</h2>
+                <p class="fs-16pt LobsterRegular color-yellow">We've a lot of things that you can order, you can choose whatever you want it. Feel youself free</p>
+            </div>
+            <div class="row menu">
+                <div class="col-md-6">
+                    <img src="<?= PATH ?>assets/imgs/jpgs/order-one.jpg" alt="Order Number One - Batata Fritas" width="250">
+                    <div>
+                        <h4 class="fs-22pt">Chips</h4>
+                        <span class="fs-26pt color-yellow">R$22,99</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, iure debitis. Sint alias consequuntur deserunt magni eius id neque sunt labore excepturi quos iure incidunt, quidem blanditiis? Fuga, voluptatum quae.</p>
+                        <a href="#"><button type="button" class="btn-menu">I wanna order it</button></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    Olá
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    Olá
+                </div>
+                <div class="col-md-6">
+                    Olá
+                </div>
             </div>
         </section>
     </div>
