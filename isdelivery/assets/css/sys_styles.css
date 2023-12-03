@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+h1 {
+    font-family: Lobster Bold;
+}
+
+.login__background {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../imgs/jpgs/system-background.jpg") no-repeat;
+    background-size: cover;
+}
+
+.login__background input {
+    padding: 7px 10px;
+    width: 250px;
+    font-size: 14pt;
+}
+
+.login__background > div.container > div {
+    border: 1px solid var(--brown-light);
+    border-left: 20px solid var(--brown-light);
+    border-right: 20px solid var(--brown-light);
+    color: var(--white-bg);
+    border-radius: 20px;
+}
+
+.login__background > div.container .btn-singin {
+    background-color: var(--brown-light);
+    color: var(--white-bg);
+    padding: 8px 100px;
+    border: none;
+    font-size: 12pt;
+    margin-top: 10px;
+}
