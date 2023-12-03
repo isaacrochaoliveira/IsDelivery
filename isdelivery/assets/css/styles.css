@@ -141,3 +141,50 @@ body {
     background-color: var(--red-bg);
     color: var(--white-bg);
 }
+
+/* SOCIAL ACCOUNT'S SECTION */
+
+@keyframes label {
+    from {font-size: 0px;}
+    to {font-size: 22px;}
+}
+
+#social-media {
+    background: linear-gradient(to right, var(--yellow-bg), rgba(0, 0, 0, 0)), url("../imgs/jpgs/coke.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 180px 50px;
+    font-family: 'Lobster Bold';
+}
+
+#social-media .btn-social-media {
+    font-size: 20px;
+    background-color: transparent;
+    padding: 12px 65px;
+    border: 1px solid var(--white-bg);
+    color: var(--white-bg);
+    transition: 0.3s;
+}
+
+#social-media .btn-social-media:hover {
+    transform: scale(1.1);
+    background-color: var(--white-bg);
+    color: var(--black-bg);
+    .div-icon {
+        display: block;
+    }
+    .div-icon .fa-icon {
+        animation-name: label;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+    }
+}
+
+#social-media .btn-social-media .div-icon .fa-icon {
+    font-size: 0px;
+}
+
+#social-media .btn-social-media .div-icon {
+    display: none;
+}

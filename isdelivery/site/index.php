@@ -89,8 +89,87 @@ require_once('../conf/config.php');
                 </div>
             </div>
         </section>
+        <section id="social-media">
+            <h2 class="fs-36pt color-red">Our Social Accounts</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-2">
+                    <button type="button" class="btn-social-media">
+                        <div class="row">
+                            <div class="col-md-3 div-icon">
+                                <i class="fa-brands fa-threads fa-icon"></i>
+                            </div>
+                            <div class="col-md-4">
+                                Threads
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn-social-media">
+                        <div class="row">
+                            <div class="col-md-3 div-icon">
+                                <i class="fa-brands fa-instagram fa-icon"></i>
+                            </div>
+                            <div class="col-md-4">
+                                Instagram
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn-social-media">
+                        <div class="row">
+                            <div class="col-md-3 div-icon">
+                                <i class="fa-brands fa-facebook fa-icon"></i>
+                            </div>
+                            <div class="col-md-4">
+                                Facebook
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-2">
+                    <button type="button" class="btn-social-media">
+                        <div class="row">
+                            <div class="col-md-3 div-icon">
+                                <i class="fa-brands fa-youtube fa-icon"></i>
+                            </div>
+                            <div class="col-md-4">
+                                Youtube
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn-social-media">
+                        <div class="row">
+                            <div class="col-md-3 div-icon">
+                                <i class="fa-brands fa-pinterest fa-icon"></i>
+                            </div>
+                            <div class="col-md-4">
+                                Pinterest
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn-social-media">
+                        <div class="row">
+                            <div class="col-md-3 div-icon">
+                                <i class="fa-brands fa-twitter fa-icon"></i>
+                            </div>
+                            <div class="col-md-4">
+                                Twitter
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </section>
     </div>
-
     <?= include_once('./template/footer.php') ?>
     <!-- BOOTSTRAP'S JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
